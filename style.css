@@ -1,0 +1,77 @@
+body  {
+background: linear-gradient(green, lightgreen, green);
+font-family:Syne Mono;
+color: green;
+font-size: 20px;
+line-height; 2px;
+}
+
+h1, h2, h3 {
+font-family: Zilla Slab;
+font-size: medium;
+font-size: 30px;
+}
+
+button {
+background-color: green;
+color: white;
+box-shadow: 0 0 2px;
+font-family: "Syne Mono";
+}
+
+button:hover {
+  color: lightgreen;
+}
+
+.link {
+  color: blue;
+  text-decoration: underline;
+}
+
+.link:hover {
+  color: grey
+}
+
+img {
+  width: 200px;
+  border-radius: 3px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 750px;
+}
+
+.card {
+  background-color: lightgreen;
+  padding: 30px;
+  margin: 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 20px, color: grey;
+  text-align: center;
+}
+
+.social-icons > li{
+  display: inline-block;
+  list-style: none;
+  font-size: 30px;
+  color: green;
+  padding: 0px 20px;
+  margin: 0 5px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
